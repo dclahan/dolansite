@@ -34,9 +34,9 @@
 
   <!-- get random profile photo -->
   <script>
-    const emotions = ["admiration", "amusement", "anger", "annoyance", "approval", "caring", "confusion", "curiosity", "desire", "disappointment", "disapproval", "disgust", "embarrassment", "excitement", "fear", "gratitude", "grief", "joy", "love", "nervousness", "optimism", "pride", "realization", "relief", "remorse", "sadness", "surprise", "neutral"];
+    const emotions = ["anger", "disgust", "fear", "happiness", "sadness", "surprise", "neutral"];
     function getImageTag() {
-      var img = '<img src=\"img/profile_pic/photo_';
+      var img = '<img src=\"img/pfp/photo_';
       var randomIndex = Math.floor(Math.random() * emotions.length);
       img += emotions[randomIndex];
       img += '.jpg\" alt=\"Image of Dolan Clahan feeling '+ emotions[randomIndex] + '\"/>';
@@ -127,7 +127,7 @@
             <h2>About Dolan Clahan</h2>
 
             <p>
-              I am an ... I also practice Buddhist meditation and yoga.
+              I am an ... 
             </p>
 
             <p>
